@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+import axios from 'axios'
 
 export default createStore({
   state: {
@@ -8,6 +9,9 @@ export default createStore({
   mutations: {
   },
   actions: {
+    getUsers: ({ commit }) => {
+      axios.get('https://api.github.com/users')
+      .then (res => res)
   },
   modules: {
   }

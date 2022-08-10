@@ -7,6 +7,20 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken')
 const userMiddleware = require('../middleware/users.js');
+import {
+  showProducts,
+  showProductById,
+  createProduct,
+  updateProduct,
+  deleteProduct,
+} from "../middleware/product.js";
+// import {
+//   showUsers,
+//   showUserById,
+//   createUser,
+//   updateUser,
+//   deleteUser,
+// } from "../middleware/users.js";
 router.post('/api/register', express.json(), userMiddleware.validateRegister, (req, res) => {
 
   let { email, user_password, password_repeat, firstname, lastname, gender, user_role} = req.body
@@ -21,9 +35,9 @@ router.post('/api/register', express.json(), userMiddleware.validateRegister, (r
     user_role = 'user',
   }
 
-  if (!username) {
+  if (!email) {
     return res.status(400).send({
-      msg: 'username should not be empty'
+      msg: 'email should not be empty'
     });
   }
 
@@ -97,7 +111,7 @@ router.post('api/login', (req, res, next) => {
           msg: err
         });
       }
-      if (!result.length) {
+      if (result.length === 0) {
         return res.status(401).send({
           msg: 'email or password is incorrect!'
         });
@@ -165,39 +179,20 @@ db.query(`SELECT * FROM users`,
 });
 
 
-router.get('api/products', (req, res, next) => {
-    db.query(`SELECT * FROM products`, 
-    (err, result) => {
-      // no products found
-      if (err) {
-        return res.status(400).send({
-          msg: err
-        });
-      }
-      if (result.length !=== 0) {
-        return res.status(200).send({
-          msg: 'products successfully loaded'
-        });
-      }
-    })
-});
+// get all products
+router.get('/products', showProducts);
 
-router.get('/products/:id', [prod_id] (req, res, next) => {
-db.query(`SELECT * FROM products WHERE prod_id = ${db.escape(req.body.prod_id)}`, 
-//product does not exist
-    (err, result) => {
-      if (err) {
-        return res.status(400).send({
-          msg: err
-        });
-      }
-      if (result.length !=== 0) {
-        return res.status(200).send({
-          msg: 'product successfully loaded'
-        });
-      }
-    })
-});
+// get single product
+router.get('/products/:id', showProductById);
+
+// create new product
+router.post('/products', createProduct);
+
+// update Product
+router.put('/products/:id', updateProduct);
+
+// delete Product
+router.delete('/products/:id', deleteProduct);
 
 
 
