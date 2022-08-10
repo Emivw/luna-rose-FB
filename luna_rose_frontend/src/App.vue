@@ -1,29 +1,33 @@
 <template>
-<!-- <Navbar/> -->
+<Navbar/>
+<!-- 
     <nav>
     <router-link to="/">home</router-link> |
     <router-link to="/products">Products</router-link> |
     <router-link to="/register">Register</router-link> |
     <router-link to="/login">Login</router-link> |
     <router-link to="/admin">Admin</router-link>
-  </nav>
+  </nav> -->
   <router-view/>
+<footer>
+    <Footer />
+  </footer>
+
 </template>
 
 <script>
 import Navbar from "@/components/navbar.vue";
+import footer from "@/components/footer.vue";
 export default {
-  components: Navbar
+  components: {Navbar, footer}
 }
 </script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 21px;
 }
+
 
 
 </style>

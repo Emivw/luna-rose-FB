@@ -1,4 +1,6 @@
 <template>
+<navbar/>
+<footer/>
         <div class="container-fluid" id="product">
   
 </div>
@@ -8,6 +10,6 @@
     
 </script>
     
-<style>
+<style scoped>
     
 </style>
