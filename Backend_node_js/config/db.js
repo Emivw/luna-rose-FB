@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+require('dotenv').config;
 const connection = mysql.createConnection({
     host: process.env.dbhost,
     user: process.env.dbuser,
