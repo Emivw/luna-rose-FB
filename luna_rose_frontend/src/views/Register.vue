@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container ">
     <div class="row pt-5 d-flex flex-row justify-content-center">
       <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
         <form role="form">
@@ -285,7 +285,7 @@ h2{
   color:#dd4e4f;       
 }
 .colorgraph {
-  height: 5px;
+  height: px;
   border-top: 0;
   background: #f9f5f2;
   border-radius: 5px;
