@@ -1,4 +1,6 @@
 <template>
+<navbar/>
+<footer/>
 <div class="container-fluid" id="home">
   
 </div>
@@ -9,6 +11,6 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
 
 </style>
