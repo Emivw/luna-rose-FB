@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://i.postimg.cc/8zLWLQhK/logo" alt="logo" w-100 h-100 /></a>
+      <a  href="#">
+        <img class="img image-fluid" src="https://i.postimg.cc/rm1yWbNT/logo-img.png" alt="logo"  ></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -15,7 +15,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-md-auto gap-2">
+        <ul class="navbar-nav ms-md-auto">
           <li class="nav-item rounded">
             <a class="navbar-brand" href="#"
               ><i class="bi bi-house-fill me-2"></i
@@ -113,7 +113,21 @@
 // };
 </script>
 
-<style>
+<style scoped>
+.navbar-expand-lg .navbar-collapse {
+    align-self: flex-start;
+    justify-content: flex-end !important;
+}
+nav[data-v-688b5e20] {
+    padding: 0px;
+}
+.img{
+  width: 120px !important;
+  height: 140px;
+  aspect-ratio: 1;
+
+}
+
 nav {
   padding: 30px;
 }
@@ -128,6 +142,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #a70000;
+}
+.bi{
+  color: #dd4e4f;
 }
 
 </style>
