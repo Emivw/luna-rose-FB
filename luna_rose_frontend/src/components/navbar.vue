@@ -116,6 +116,7 @@
 <style scoped>
 .navbar-expand-lg .navbar-collapse {
     align-self: flex-start;
+    justify-content: flex-end !important;
 }
 nav[data-v-688b5e20] {
     padding: 0px;
@@ -141,6 +142,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #a70000;
+}
+.bi{
+  color: #dd4e4f;
 }
 
 </style>
