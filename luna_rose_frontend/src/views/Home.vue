@@ -29,126 +29,7 @@
     </div>
   </div>
 
-  
-  <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>Collection</p>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="row" id="slider-text">
-      <div class="col-md-6"></div>
-    </div>
-  </div>
-
-  <!-- Item slider-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="carousel carousel-showmanymoveone slide" id="itemslider">
-          <div class="carousel-inner px-5">
-            <div class="item active">
-              <div class="col-xs-12 col-sm-6 col-md-2 w-0 h-30">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg"
-                /></a>
-                <h4 class="text-center">Earings</h4>
-                <h5 class="text-center">R200,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-100 w-24">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/GhDPJChW/pearl-necklace.jpg"
-                /></a>
-                <h4 class="text-center">necklace</h4>
-                <h5 class="text-center">R400,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-25">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/pLbJSKQT/download-1.jpg"
-                /></a>
-                <span class="badge">15%</span>
-                <h4 class="text-center"> Silver Ring</h4>
-                <h5 class="text-center">R2250,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <h4 class="text-center">Gothic Rose Earings</h4>
-                <h5 class="text-center">R500,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <h4 class="text-center">Matching Rings</h4>
-                <h5 class="text-center">R1400,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <span class="badge">15%</span>
-                <h4 class="text-center">Crystal Dainty Bracelet</h4>
-                <h5 class="text-center">R300,00</h5>
-              </div>
-            </div>
-          </div>
-
-          <div id="slider-control">
-            <a
-              class="left carousel-control"
-              href="#itemslider"
-              data-slide="prev"
-              ><img
-                src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png"
-                alt="Left"
-                class="img-responsive"
-            /></a>
-            <a
-              class="right carousel-control"
-              href="#itemslider"
-              data-slide="next"
-              ><img
-                src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png"
-                alt="Right"
-                class="img-responsive"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Item slider end-->
   <div class="container-fluid" id="home">
     <div class="header">
       <h1></h1>
@@ -206,269 +87,199 @@
     </table>
   </div>
 
-  <div class="container-fluid" id="home">
+ <div class="container-fluid" id="home">
     <div class="header">
       <h1></h1>
-      <p>Rings</p>
+      <p>Collection</p>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="carousel carousel-showmanymoveone slide" id="itemslider">
-          <div class="carousel-inner px-5">
-            <div class="item active">
-              <div class="col-xs-12 col-sm-6 col-md-2 w-0 h-30">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg"
-                /></a>
-                <h4 class="text-center">Promise Ring</h4>
-                <h5 class="text-center">R1400,00</h5>
-              </div>
-            </div>
+  <!-- testimonikal owl carasal thats gonna be changed -->
+<section class="testimonials">
+	<div class="container">
 
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
             <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-100 w-24">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/HskpS9b0/Vintage-Alexandrite-Engagement-Ring-Set-Leaf-Flower-Ring-Etsy.jpg"
-                /></a>
-                <h4 class="text-center">Vinatage Enagement ring</h4>
-                <h5 class="text-center">R2400,00</h5>
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg" alt="">
+               
               </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-25">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/5tYysSdK/Orb-Weaver-Spider-Ring-7.jpg"
-                /></a>
-                <span class="badge">15%</span>
-                <h4 class="text-center"> Gothic Spider Ring</h4>
-                <h5 class="text-center">R2250,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <h4 class="text-center">Gothic Rose Earings</h4>
-                <h5 class="text-center">R500,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/pLbJSKQT/download-1.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>  
-                <span class="badge">15%</span>
-                <h4 class="text-center">Silver Ring</h4>
-                <h5 class="text-center">R2250,00</h5>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/2Sch9q4K/Punk-Goth-Snake-Wrap-Ring-Gunmetal-11.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-              
-                <h4 class="text-center">Crystal Dainty Bracelet</h4>
-                <h5 class="text-center">R300,00</h5>
-              </div>
-            </div>
-          </div>
-
-          <div id="slider-control">
-            <a
-              class="left carousel-control"
-              href="#itemslider"
-              data-slide="prev"
-              ><img
-                src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png"
-                alt="Left"
-                class="img-responsive"
-            /></a>
-            <a
-              class="right carousel-control"
-              href="#itemslider"
-              data-slide="next"
-              ><img
-                src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png"
-                alt="Right"
-                class="img-responsive"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>Necklaces</p>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="carousel carousel-showmanymoveone slide" id="itemslider">
-          <div class="carousel-inner px-5">
-            <div class="item active">
-              <div class="col-xs-12 col-sm-6 col-md-2 w-0 h-30">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg"
-                /></a>
+              <div class="testimonial-name btn-grad">
                 <h4 class="text-center">Earings</h4>
                 <h5 class="text-center">R200,00</h5>
-              </div>
+</div>
             </div>
-
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
             <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-100 w-24">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/GhDPJChW/pearl-necklace.jpg"
-                /></a>
-                <h4 class="text-center">necklace</h4>
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/GhDPJChW/pearl-necklace.jpg" alt="">
+            
+              </div>
+              <div class="testimonial-name btn-grad">
+                  <h4 class="text-center">necklace</h4>
                 <h5 class="text-center">R400,00</h5>
+
               </div>
             </div>
-
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
             <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2 h-25">
-                <a href="#"
-                  ><img
-                    class="img-fluid prodimg"
-                    src="https://i.postimg.cc/pLbJSKQT/download-1.jpg"
-                /></a>
-                <span class="badge">15%</span>
-                <h4 class="text-center">Ring</h4>
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/pLbJSKQT/download-1.jpg" alt="">
+           
+              </div>
+              <div class="testimonial-name btn-grad"><h4 class="text-center"> Silver Ring</h4>
                 <h5 class="text-center">R2250,00</h5>
-              </div>
+</div>
             </div>
-
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            
             <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <h4 class="text-center">Gothic Rose Earings</h4>
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg" alt="">
+                
+              </div>
+              <div class="testimonial-name btn-grad">
+                 <h4 class="text-center">Gothic Rose Earings</h4>
                 <h5 class="text-center">R500,00</h5>
+
               </div>
             </div>
-
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
             <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <h4 class="text-center">Matching Rings</h4>
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg" alt="">
+                
+              </div>
+              <div class="testimonial-name btn-grad">
+                  <h4 class="text-center">Matching Rings</h4>
                 <h5 class="text-center">R1400,00</h5>
+
               </div>
             </div>
-
-            <div class="item">
-              <div class="col-xs-12 col-sm-6 col-md-2">
-                <a href="#"
-                  ><img
-                    src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg"
-                    class="img-fluid prodimg center-block"
-                /></a>
-                <span class="badge">15%</span>
+            <!--END OF TESTIMONIAL 5 -->
+                        <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+              <div class="testimonial-name btn-grad">
                 <h4 class="text-center">Crystal Dainty Bracelet</h4>
                 <h5 class="text-center">R300,00</h5>
+
               </div>
             </div>
-          </div>
-
-          <div id="slider-control">
-            <a
-              class="left carousel-control"
-              href="#itemslider"
-              data-slide="prev"
-              ><img
-                src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png"
-                alt="Left"
-                class="img-responsive"
-            /></a>
-            <a
-              class="right carousel-control"
-              href="#itemslider"
-              data-slide="next"
-              ><img
-                src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png"
-                alt="Right"
-                class="img-responsive"
-            /></a>
+                       
+                        
+            
           </div>
         </div>
       </div>
+      </div>
+    </section>
+
+<!-- end here -->
+ <div class="container-fluid" id="home">
+    <div class="header">
+      <h1></h1>
+      <p>necklaces</p>
     </div>
   </div>
+
+<div class="container">
+  <div class="row ">
+    <div class="col-2">
+ <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+    <div class="col-2">
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+    <div class="col-2">
+     <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+ 
+   <div class="col-2">
+   <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+  <div class="col-2">
+      <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+    <div class="col-2">
+      
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                
+              </div>
+    </div>
+  </div>
+ </div>  
+
+
+
+
   <footer />
 </template>
 
 <script>
 export default {};
-$(document).ready(function () {
-  $("#itemslider").carousel({ interval: 3000 });
 
-  $(".carousel-showmanymoveone .item").each(function () {
-    var itemToClone = $(this);
+// Owl Carousel
+jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
 
-    for (var i = 1; i < 6; i++) {
-      itemToClone = itemToClone.next();
-
-      if (!itemToClone.length) {
-        itemToClone = $(this).siblings(":first");
-      }
-
-      itemToClone
-        .children(":first-child")
-        .clone()
-        .addClass("cloneditem-" + i)
-        .appendTo($(this));
-    }
-  });
-});
 </script>
 <style scoped>
-/* .container{
-  height:100vh;
-} */
+
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: larger;
   font-weight: bold;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 70%;
-  margin: auto;
-}
+
 .header {
   padding: 10px;
   text-align: center;
@@ -484,206 +295,30 @@ p {
   margin-right: auto;
   aspect-ratio: 1;
 }
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width:50px;
+          }
 
-html,
-body {
-  background-color: #e74c3c;
-}
-.wrapper {
-  width: 100%;
-  padding-top: 20px;
-  text-align: center;
-}
-h2 {
-  font-family: "Josefin Sans", sans-serif;
-  color: #fff;
-}
-.carousel {
-  width: 90%;
-  margin: 0px auto;
-}
-.slick-slide {
-  margin: 10px;
-}
-.slick-slide img {
-  width: 100%;
-  border: 2px solid #fff;
-}
-.wrapper .slick-dots li button:before {
-  font-size: 20px;
-  color: white;
-}
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
 
-/* slider */
-#slider-text {
-  padding-top: 30px;
-  display: block;
-}
-#slider-text .col-md-6 {
-  overflow: hidden;
-}
 
-#slider-text h2 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  letter-spacing: 3px;
-  margin: 30px auto;
-  padding-left: 40px;
-}
-#slider-text h2::after {
-  border-top: 2px solid #c7c7c7;
-  content: "";
-  position: absolute;
-  bottom: 35px;
-  width: 100%;
-}
-
-#itemslider h4 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  margin: 10px auto 3px;
-}
-#itemslider h5 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  margin: 2px auto 1px;
-}
-#itemslider h6 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  font-size: 10px;
-  margin: 1px auto 3px;
-}
-.badge {
-  background: #b20c0c;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  line-height: 31px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 1px #b20c0c;
-  top: 5px;
-  right: 25%;
-}
-#slider-control img {
-  padding-top: 40%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 992px) {
-  #slider-control img {
-    padding-top: 70px;
-    margin: 0 auto;
-  }
-}
-
-.carousel-showmanymoveone .carousel-control {
-  width: 4%;
-  background-image: none;
-}
-.carousel-showmanymoveone .carousel-control.left {
-  margin-left: 5px;
-}
-.carousel-showmanymoveone .carousel-control.right {
-  margin-right: 5px;
-}
-.carousel-showmanymoveone .cloneditem-1,
-.carousel-showmanymoveone .cloneditem-2,
-.carousel-showmanymoveone .cloneditem-3,
-.carousel-showmanymoveone .cloneditem-4,
-.carousel-showmanymoveone .cloneditem-5 {
-  display: none;
-}
-@media all and (min-width: 768px) {
-  .carousel-showmanymoveone .carousel-inner > .active.left,
-  .carousel-showmanymoveone .carousel-inner > .prev {
-    left: -50%;
-  }
-  .carousel-showmanymoveone .carousel-inner > .active.right,
-  .carousel-showmanymoveone .carousel-inner > .next {
-    left: 50%;
-  }
-  .carousel-showmanymoveone .carousel-inner > .left,
-  .carousel-showmanymoveone .carousel-inner > .prev.right,
-  .carousel-showmanymoveone .carousel-inner > .active {
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
-    display: block;
-  }
-}
-@media all and (min-width: 768px) and (transform-3d),
-  all and (min-width: 768px) and (-webkit-transform-3d) {
-  .carousel-showmanymoveone .carousel-inner > .item.active.right,
-  .carousel-showmanymoveone .carousel-inner > .item.next {
-    -webkit-transform: translate3d(50%, 0, 0);
-    transform: translate3d(50%, 0, 0);
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner > .item.active.left,
-  .carousel-showmanymoveone .carousel-inner > .item.prev {
-    -webkit-transform: translate3d(-50%, 0, 0);
-    transform: translate3d(-50%, 0, 0);
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner > .item.left,
-  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-  .carousel-showmanymoveone .carousel-inner > .item.active {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    left: 0;
-  }
-}
-@media all and (min-width: 992px) {
-  .carousel-showmanymoveone .carousel-inner > .active.left,
-  .carousel-showmanymoveone .carousel-inner > .prev {
-    left: -16.666%;
-  }
-  .carousel-showmanymoveone .carousel-inner > .active.right,
-  .carousel-showmanymoveone .carousel-inner > .next {
-    left: 16.666%;
-  }
-  .carousel-showmanymoveone .carousel-inner > .left,
-  .carousel-showmanymoveone .carousel-inner > .prev.right,
-  .carousel-showmanymoveone .carousel-inner > .active {
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner .cloneditem-2,
-  .carousel-showmanymoveone .carousel-inner .cloneditem-3,
-  .carousel-showmanymoveone .carousel-inner .cloneditem-4,
-  .carousel-showmanymoveone .carousel-inner .cloneditem-5,
-  .carousel-showmanymoveone .carousel-inner .cloneditem-6 {
-    display: block;
-  }
-}
-@media all and (min-width: 992px) and (transform-3d),
-  all and (min-width: 992px) and (-webkit-transform-3d) {
-  .carousel-showmanymoveone .carousel-inner > .item.active.right,
-  .carousel-showmanymoveone .carousel-inner > .item.next {
-    -webkit-transform: translate3d(16.666%, 0, 0);
-    transform: translate3d(16.666%, 0, 0);
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner > .item.active.left,
-  .carousel-showmanymoveone .carousel-inner > .item.prev {
-    -webkit-transform: translate3d(-16.666%, 0, 0);
-    transform: translate3d(-16.666%, 0, 0);
-    left: 0;
-  }
-  .carousel-showmanymoveone .carousel-inner > .item.left,
-  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-  .carousel-showmanymoveone .carousel-inner > .item.active {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    left: 0;
-  }
-}
 
 .btn-grad {
   background-image: linear-gradient(
@@ -783,4 +418,79 @@ h1 {
   display: block;
   width: 32px;
 }
+
+
+/* owl */
+.shadow-effect {
+		    background: #fff;
+		    padding: 20px;
+		    border-radius: 4px;
+		    text-align: center;
+	border:1px solid #ECECEC;
+		    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+		}
+		#customers-testimonials .shadow-effect p {
+		    font-family: inherit;
+		    font-size: 17px;
+		    line-height: 1.5;
+		    margin: 0 0 17px 0;
+		    font-weight: 300;
+		}
+		.testimonial-name {
+		    margin: -17px auto 0;
+		    display: table;
+		    width: 80px;
+		    /* background: #3190E7; */
+		    padding: 9px 35px;
+		    border-radius: 12px;
+		    text-align: center;
+		    color: #fff;
+		    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+        height:50px;
+		}
+		#customers-testimonials .item {
+		    text-align: center;
+		    padding: 50px;
+				margin-bottom:80px;
+		    opacity: .2;
+		    -webkit-transform: scale3d(0.8, 0.8, 1);
+		    transform: scale3d(0.8, 0.8, 1);
+		    -webkit-transition: all 0.3s ease-in-out;
+		    -moz-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+		#customers-testimonials .owl-item.active.center .item {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.0, 1.0, 1);
+		    transform: scale3d(1.0, 1.0, 1);
+		}
+		.owl-carousel .owl-item img {
+		    transform-style: preserve-3d;
+		    max-width: 90px;
+    		margin: 0 auto 17px;
+		}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+		    
+		    transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+#customers-testimonials.owl-carousel .owl-dots{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+	display: inline-block;
+}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+		    background: #3190E7;
+		    display: inline-block;
+		    height: 20px;
+		    margin: 0 2px 5px;
+		    transform: translate3d(0px, -50%, 0px) scale(0.3);
+		    transform-origin: 50% 50% 0;
+		    transition: all 250ms ease-out 0s;
+		    width: 20px;
+		}
+/* end */
 </style>
