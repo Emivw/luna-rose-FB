@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer-section">
+  <div class="footer-section">
     <div class="container">
       <div class="footer-cta pt-5 pb-5">
         <div class="row">
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 <script>
 export default {};
@@ -200,7 +200,7 @@ ul {
 }
 .footer-widget ul li {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 50%;
   margin-bottom: 12px;
 }

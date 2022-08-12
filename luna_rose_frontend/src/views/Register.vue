@@ -1,6 +1,6 @@
 <template>
   <div class="container ">
-    <div class="row pt-5 d-flex flex-row justify-content-center">
+    <div class="row  d-flex flex-row justify-content-center">
       <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
         <form role="form">
           <h2>Please Sign Up</h2>
@@ -275,6 +275,16 @@ export default {};
 <style scoped>
 .btn-check:active+.btn-info, .btn-check:checked+.btn-info, .btn-info.active, .btn-info:active, .show>.btn-info.dropdown-toggle {
     color:#f5a08a;
+    background-color:#dd4e4f;
+    border-color:#dd4e4f;
+}
+.btn-info{
+   color:#f5a08a;
+    background-color:#dd4e4f;
+    border-color:#dd4e4f;
+}
+.btn-info.active{
+  color:#f5a08a;
     background-color:#dd4e4f;
     border-color:#dd4e4f;
 }

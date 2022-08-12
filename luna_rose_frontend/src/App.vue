@@ -2,18 +2,17 @@
 <Navbar/>
 
   <router-view/>
-<footer>
-    <Footer />
-  </footer>
+<footer/>
 
 </template>
 
 <script>
 import Navbar from "@/components/navbar.vue";
 import footer from "@/components/footer.vue";
+// import productCard from "@/components/productCard.vue";
 export default {
-  components: {Navbar, footer}
-}
+  components: {Navbar, footer , //productCard}
+  }}
 </script>
 <style>
 *{

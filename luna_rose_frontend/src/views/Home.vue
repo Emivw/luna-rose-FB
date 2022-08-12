@@ -1,14 +1,15 @@
 <template>
   <navbar />
+  <div class="container-fluid">
+
+
+  <div class="conatainer-fluid">
   <div class="p-5 bg-light">
     <h1 class="display-3">Royal Luna Rose Company</h1>
 <h3>Fine Jewllers Since 2022</h3>
     <hr class="my-2" />
 
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button"> View Products</a>
-       
-    </p>
+    
   </div>
   <div class="container-fluid" id="home">
     <div class="header">
@@ -94,7 +95,7 @@
     </div>
   </div>
   <!-- testimonikal owl carasal thats gonna be changed -->
-<section class="testimonials">
+<div class="testimonials">
 	<div class="container">
 
       <div class="row">
@@ -182,62 +183,270 @@
         </div>
       </div>
       </div>
-    </section>
+    </div>
+      </div>
 
 <!-- end here -->
+<!-- necklaces starts here -->
  <div class="container-fluid" id="home">
     <div class="header">
       <h1></h1>
-      <p>necklaces</p>
+      <p>Necklaces</p>
     </div>
   </div>
 
 <div class="container">
   <div class="row ">
-    <div class="col-2">
+    <div class="col-sm-2 col-md-2 col-lg-2">
  <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/V6fTYDfD/choker.jpg" alt="chocker">
                 
               </div>
     </div>
-    <div class="col-2">
+    <div class="col-sm-2 col-md-2 col-lg-2">
     <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/rFDf8JzJ/choker-leatther.png" alt=" leather chocker">
                 
               </div>
     </div>
-    <div class="col-2">
+    <div class="col-sm-2 col-md-2 col-lg-2">
      <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/fT9WqsyZ/choker-silver.jpg" alt=" silver choker">
                 
               </div>
     </div>
  
-   <div class="col-2">
+   <div class="col-sm-2 col-md-2 col-lg-2">
    <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/SsRrT5NF/diamond-necklace.jpg" alt="diamond necklace">
                 
               </div>
     </div>
-  <div class="col-2">
+  <div class="col-sm-2 col-md-2 col-lg-2">
       <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/9Q1gLyt9/diamond.jpg" alt="diamond">
                 
               </div>
     </div>
-    <div class="col-2">
+    <div class="col-sm-2 col-md-2 col-lg-2">
       
     <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/020VN744/gold-necklace.jpg" alt="gold">
                 
               </div>
     </div>
   </div>
  </div>  
+<!-- necklaces ends here -->
+<!-- rings -->
+ <div class="container-fluid" id="home">
+    <div class="header">
+      <h1></h1>
+      <p>Rings</p>
+    </div>
+  </div>
 
+<div class="container">
+  <div class="row ">
+    <div class="col-sm-2 col-md-2 col-lg-2">
+ <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/QNqvXnz5/18-The-Most-Popular-Matching-Wedding-Bands.jpg" alt="wedding band">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/8PQRMsWV/30-Unique-Engagement-Rings-for-the-Designer-Bride.jpg" alt=" engagement">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+     <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/pLbJSKQT/download-1.jpg
+" alt=" diamond">
+                
+              </div>
+    </div>
+ 
+   <div class="col-sm-2 col-md-2 col-lg-2">
+   <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/Hx1YBGtj/Rustic-Glam-Outdoor-Destination-Wedding-in-Big-Sur.jpg" alt="promise ring">
+                
+              </div>
+    </div>
+  <div class="col-sm-2 col-md-2 col-lg-2">
+      <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/qMTKgSVJ/download.jpg" alt="diamond">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg" alt="moon rings">
+                
+              </div>
+    </div>
+  </div>
+ </div>  
+<!-- rings end here -->
 
+<!-- earings -->
+ <div class="container-fluid" id="home">
+    <div class="header">
+      <h1></h1>
+      <p>Earings</p>
+    </div>
+  </div>
 
+<div class="container">
+  <div class="row ">
+    <div class="col-sm-2 col-md-2 col-lg-2">
+ <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/J0KcNDFq/Black-Sword-Earrings-Gothic-Earrings-Sword-Drop-Earrings-Etsy.jpg" alt="gothic earing">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/MZM7v4hP/Restyle-Wild-Rose-Gothic-Romance-Evening-Statement-Earrings-e-Bay.jpg" alt=" chain githic">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+     <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/FHQVtZCP/Pentagram-Silver-silver-earrings-emo-goth-cool-fashion-rock-tattoo.jpg" alt=" earing">
+                
+              </div>
+    </div>
+ 
+   <div class="col-sm-2 col-md-2 col-lg-2">
+   <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg" alt="earing">
+                
+              </div>
+    </div>
+  <div class="col-sm-2 col-md-2 col-lg-2">
+      <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/kGrMqYYL/Goth-spike-earring-asymmetrical-black-chain-earrings-egirl-jewelry-gothic-aesthetic-chain-earrin.jpg" alt="earing">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/2yhkBhXq/Chain-Earrings-w-Skull-Posts-and-Dagger-Drops.jpg" alt="earings">
+                
+              </div>
+    </div>
+  </div>
+ </div>  
+ <!-- earings stop here -->
+ <!-- braclet start -->
 
+ <div class="container-fluid" id="home">
+    <div class="header">
+      <h1></h1>
+      <p>Bracelet</p>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row ">
+    <div class="col-sm-2 col-md-2 col-lg-2">
+ <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/kG6vChdH/15-Latest-Bracelet-or-Hand-Mangalsutra-Designs-2022-1.jpg" alt="brecelet designs">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/ydWbJjHm/100.jpg" alt=" floers bracelet">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+     <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/vHvts9Rb/Crystal-Itty-Bitty-Bracelet.jpg" alt=" dainty bracelet">
+                
+              </div>
+    </div>
+ 
+   <div class="col-sm-2 col-md-2 col-lg-2">
+   <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/8z0WpmZQ/download.jpg" alt="gold bracelet">
+                
+              </div>
+    </div>
+  <div class="col-sm-2 col-md-2 col-lg-2">
+      <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/h4sX40Gy/15-Latest-Bracelet-or-Hand-Mangalsutra-Designs-2022.jpg" alt="beaxed heart bracelets">
+                
+              </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/sX9vhY42/Elsa-Peretti-Diamond-Hoop-single-row-bangle-in-18k-rose-gold-with-diamonds.jpg" alt="diamond bracelet">
+                
+              </div>
+    </div>
+  </div>
+ </div>  
+ <!-- bracelet ends here -->
+
+ <!-- piercings start -->
+ <div class="container-fluid" id="home">
+    <div class="header">
+      <h1></h1>
+      <p>Piercing Rings</p>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2 col-md-2 col-lg-2">
+ <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/6QV9j92j/image.jpg" alt="brecelet designs">
+                
+              </div>
+    </div>
+    <div class="col-sm-12 col-md-2 col-lg-2">
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/FKP95Tp3/celestial-bellyring.png" alt="belly ring">
+                
+              </div>
+    </div>
+    <div class="col-sm-12 col-md-2 col-lg-2">
+     <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/CK2WsXJP/eyebrow-ring.jpg" alt="eyebrow ring">
+                
+              </div>
+    </div>
+ 
+   <div class="col-sm-12 col-md-2 col-lg-2">
+   <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/85ZdQgfD/dimond-bellyring.jpg" alt="bellyring">
+                
+              </div>
+    </div>
+  <div class="col-sm-12 col-md-2 col-lg-2">
+      <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/pVCBNzMx/lipring.jpg" alt="lip rings">
+                
+              </div>
+    </div>
+    <div class="col-sm-12 col-md-2 col-lg-2">
+      
+    <div class="shadow-effect">
+                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/wMQfZGcd/gumring.jpg" alt="gumring">
+                
+              </div>
+    </div>
+  </div>
+ </div> 
+ </div>
+ <!-- piercinsg end here -->
   <footer />
 </template>
 
@@ -280,6 +489,29 @@ p {
   font-weight: bold;
 }
 
+.btn1{
+color:#DD5E89;
+ background-color:#e74c3c;
+  width:20px;
+  height:45px;
+  border-color:#e74c3c;
+  
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width:100px;
+  height:100px;
+}
+.btn1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 .header {
   padding: 10px;
   text-align: center;
@@ -327,8 +559,8 @@ p {
     #f45c43 51%,
     #eb3349 100%
   );
-  margin: 10px;
-  padding: 15px 45px;
+
+ 
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -337,6 +569,8 @@ p {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
+  width:100px;
+  height:100px;
 }
 
 .btn-grad:hover {
@@ -483,7 +717,7 @@ h1 {
 	display: inline-block;
 }
 		#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-		    background: #3190E7;
+		  
 		    display: inline-block;
 		    height: 20px;
 		    margin: 0 2px 5px;

@@ -1,23 +1,34 @@
 <template>
-
   <div id="main" class="overlay">
     <div class="margi py-5">
       <div class="container-fluid marge">
         <div class="container-fluid">
-  <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>Meet The Team</p>
+          <div class="container-fluid" id="home">
+            <div class="header">
+              <h1></h1>
+              <p>Meet The Team</p>
+            </div>
+          </div>
+  
+          <div class="row row-cols-12 row-cols-xs-12 row-cols-sm-12 row-cols-md-5 row-cols-lg-5">
+    <div class="col-sm-12 col-md-12 col-xl-12 pb-5 pt-5">
+      <div class="card h-100 card shadow">
+        <div class="text-center">
+             <h3 class="display-3">Royal Luna Rose Company</h3>
+<h2>Fine Jewllers Since 2022</h2>
+        <h2>Since 2022, we’ve provided our customers with gifting solutions to celebrate important milestones in their lives. we assure trust and quality at the best value.</h2>
+        </div>
+        
+      </div>
     </div>
-  </div>
-          <div class="row row-cols-2 row-cols-xs-2 row-cols-sm-2 row-cols-lg-2">
-            <div class="col-5 ">
+  
+            <div class="col-sm-12 col-md-6 col-xl-6">
               <div class="card h-100 card shadow">
                 <div class="text-center">
                   <div class="img-hover-zoom img-hover-zoom--colorize">
                     <img
                       class="shadow"
-                      src="https://i.postimg.cc/qRzQ7YKB/taucia-png.jpg"
+                      src="https://i.postimg.cc/xdH23dvZ/Super-3-1.jpg"
                       alt="Another Image zoom-on-hover effect"
                     />
                   </div>
@@ -34,16 +45,15 @@
                       Frontend developer
                     </h2>
                   </div>
-               
                 </div>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-sm-12 col-md-6 col-xl-6">
               <div class="card h-100 card shadow">
                 <div class="text-center">
                   <div class="img-hover-zoom img-hover-zoom--colorize">
                     <img
-                      class="shadow "
+                      class="shadow"
                       src="https://i.postimg.cc/HkvB7Gbk/Emile.jpg"
                       alt="Another Image zoom-on-hover effect"
                     />
@@ -61,7 +71,6 @@
                       BackEnd Developer
                     </h2>
                   </div>
-                 
                 </div>
               </div>
             </div>
@@ -86,10 +95,22 @@ export default {};
   text-align: center;
   background: #e74c3c;
   color: white;
-  font-size: 20px;
+
+  font-weight: bold;
+  font-size: xx-large;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+.margi{
+    background-color: none;
 }
 #main {
-  background-image: linear-gradient(to right, #f5a08a 0%, #dd4e4f 51%, #f5a08a 100%);
+  background-image: linear-gradient(
+    to right,
+    #f5a08a 0%,
+    #dd4e4f 51%,
+    #f5a08a 100%
+  );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +126,7 @@ export default {};
 }
 
 .text-aqua {
-  color:#f5a08a;
+  color: #f5a08a;
 }
 .h1,
 h1 {
@@ -118,7 +139,7 @@ h1 {
   background: transparent;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   border: 1;
-  border-radius: 1rem;
+  border-radius: 15px;
 }
 .img-hover-zoom--colorize img {
   border-radius: 10%;
@@ -222,15 +243,3 @@ ul {
   width: 50px;
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
