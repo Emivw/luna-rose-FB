@@ -1,5 +1,4 @@
 <template>
-  <navbar />
   <div class="container-fluid">
 
 

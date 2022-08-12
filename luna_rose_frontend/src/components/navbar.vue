@@ -71,7 +71,7 @@
             </ul>
 
             <ul
-              v-if="users"
+              v-if="isLoggedIn"
               class="dropdown-menu dropdown-menu-end"
               aria-labelledby="navbarDropdown"
             >
