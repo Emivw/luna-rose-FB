@@ -1,12 +1,12 @@
 <template>
   <div id="main" class="overlay">
-    <div class="margi py-5">
+    <div class="margi center-text">
       <div class="container-fluid marge">
         <div class="container-fluid">
           <div class="container-fluid" id="home">
             <div class="header">
-              <h1></h1>
-              <p>Meet The Team</p>
+              <h4>Meet The Team</h4>
+              <p></p>
             </div>
           </div>
   
@@ -41,7 +41,7 @@
                     <h1>Taucia Jackson</h1>
                   </div>
                   <div class="mb-3">
-                    <h2 class="text-uppercase text-white text-center role">
+                    <h2 class="text-uppercase  text-center role">
                       Frontend developer
                     </h2>
                   </div>
@@ -67,13 +67,38 @@
                     <h1>Emile van Wyk</h1>
                   </div>
                   <div class="mb-3">
-                    <h2 class="text-uppercase text-white text-center role">
+                    <h2 class="text-uppercase  text-center role">
                       BackEnd Developer
                     </h2>
                   </div>
                 </div>
               </div>
             </div>
+             <div class="col-sm-12 col-md-12 col-xl-12 pt-5">
+      <div class="card h-100 card shadow">
+        <div class="text-center">
+             <h3 class="display-3">About Us</h3>
+<h2><ul>
+  <li>
+    We were created in January 2022
+  </li> 
+  <li>
+Our company is still in the making but we do guarantee that our jewellry is the best  
+  </li>
+ 
+  <li>
+    A word that modern Greeks use to describe doing something with soul, creativity, or love — putting “something of yourself” into your work.
+Each Jewellery Design piece is hand crafted by Cape Town-based designer,  Using ethically sourced gemstones stones and solid metals, We create delicate, timeless pieces that draw inspiration from geometric forms, travels and an appreciation for well made objects and heirlooms.
+Our jewellery pieces range from playful to effortlessly elegant, always with a subtle, sophisticated edge. Each piece is designed to age with grace and serves as an affirmation of each wearer's personal style.
+Every piece of jewellery is hand made with care and given special attention to detail, embracing natural imperfections of the hand at work and staying true to the beauty of the materials used. Our team also offer bespoke design services specialising in custom designed and hand crafted commitment, engagement and wedding rings as well as gothic and rustic ,vinatge looks.
+  </li>
+ 
+  </ul> </h2>
+        
+        </div>
+        
+      </div>
+    </div>
           </div>
         </div>
       </div>
@@ -90,40 +115,41 @@ export default {};
   width: 200px;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+      margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
 .header {
   padding: 10px;
   text-align: center;
   background: #e74c3c;
-  color: white;
+  color:  white;
 
   font-weight: bold;
   font-size: xx-large;
 
   font-family: "Josefin Sans", sans-serif;
+  margin:none;
 }
-.margi{
-    background-color: none;
+.h4{
+  margin:none;
+  padding-top:10px;
 }
 #main {
-  background-image: linear-gradient(
-    to right,
-    #f5a08a 0%,
-    #dd4e4f 51%,
-    #f5a08a 100%
-  );
+  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-  color: white;
+  color:  #dd4e4f ;
 }
 
 .marg {
   margin-bottom: 10rem;
 }
-.marge {
-  margin-bottom: 12rem;
-}
+
 
 .text-aqua {
   color: #f5a08a;
@@ -131,15 +157,24 @@ export default {};
 .h1,
 h1 {
   font-size: 1.5rem;
+  color:#dd4e4f;
+}
+h2{
+  color: #dd4e4f ;
 }
 .container-fluid {
   max-width: 1400px;
 }
 .card {
-  background: transparent;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-  border: 1;
-  border-radius: 15px;
+  padding:10px;
+ 
+  border: 2;
+ 
+  color:#dd4e4f;
+ border-radius: 10px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  12px 12px 23px #c4c4c4,
+             -12px -12px 23px #ffffff;
 }
 .img-hover-zoom--colorize img {
   border-radius: 10%;
@@ -159,13 +194,14 @@ h1 {
   height: 80px;
   font-weight: 300;
   font-size: 1rem;
+  color:#dd4e4f;
 }
 .card h5 a {
-  color: black;
+  color:#f5a08a;
   text-decoration: none;
 }
 .role {
-  color: #7a7a7a;
+  color:  #dd4e4f ;
 }
 .box {
   display: flex;
@@ -214,7 +250,7 @@ ul {
   list-style: none;
 }
 .bg-gray {
-  background-color: #f9f9f9;
+  background-color:  #dd4e4f ;
 }
 .site-heading h2 {
   display: block;

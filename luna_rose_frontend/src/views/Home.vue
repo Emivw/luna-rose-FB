@@ -1,191 +1,207 @@
 <template>
-  <div class="container-fluid">
-
-
-  <div class="conatainer-fluid">
-  <div class="p-5 bg-light">
-    <h1 class="display-3">Royal Luna Rose Company</h1>
-<h3>Fine Jewllers Since 2022</h3>
-    <hr class="my-2" />
-
-    
-  </div>
-  <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>New Arrivals</p>
-    </div>
-  </div>
-
   <div class="container">
-   
-
-    <div class="gallery-wrap">
-      <div class="item item-1"></div>
-      <div class="item item-2"></div>
-      <div class="item item-3"></div>
-      <div class="item item-4"></div>
-      <div class="item item-5"></div>
-    </div>
-  </div>
-
-
-  <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>Category</p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="p-1 bg-light">
+          <h1 class="display-5">Royal Luna Rose Company</h1>
+          <h3>Fine Jewellers Since 2022</h3>
+          <hr class="my-2" />
+        </div>
+      </div>
     </div>
   </div>
   <div class="container">
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Earings</th>
-          <th>Rings</th>
-          <th>Necklaces</th>
-          <th>Bracelet</th>
-          <th>Piercings</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Studs</td>
-          <td>Wedding</td>
-          <td>Pendant</td>
-          <td>Beaded</td>
-          <td>Nose Ring</td>
-        </tr>
-        <tr>
-          <td>Dangle</td>
-          <td>Engagement</td>
-          <td>Princess</td>
-          <td>Bangle</td>
-          <td>Tongue Ring</td>
-        </tr>
-        <tr>
-          <td>Chandelier</td>
-          <td>Promise</td>
-          <td>Choker</td>
-          <td>Tennis</td>
-          <td>Belly Ring</td>
-        </tr>
-        <tr>
-          <td>Diamond</td>
-          <td>Birthstone</td>
-          <td>Chain</td>
-          <td>Charm</td>
-          <td>Eye-Brow Ring</td>
-        </tr>
-        <tr>
-          <td>Gothic</td>
-          <td>Silver</td>
-          <td>Charm</td>
-          <td>Leather</td>
-          <td>Lip Ring</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div class="row">
+      <div id="home">
+        <div class="header">
+          <h1></h1>
+          <p>New Arrivals</p>
+        </div>
+      </div>
 
- <div class="container-fluid" id="home">
-    <div class="header">
-      <h1></h1>
-      <p>Collection</p>
+      <div class="col-xs-2 col-sm-2 col-md-12 col-l-12 col-lg-12">
+        <div class="gallery-wrap img-fluid">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="home">
+          <div class="header">
+            <h1></h1>
+            <p>Category</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- testimonikal owl carasal thats gonna be changed -->
-<div class="testimonials">
-	<div class="container">
-
+  <div class="container">
+    <div class="row">
+      <div class="table-responsive-lg">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col-md">Earings</th>
+              <th scope="col-md">Rings</th>
+              <th scope="col-md">Necklaces</th>
+              <th scope="col-md">Bracelet</th>
+              <th scope="col-md">Piercings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col-md">Studs</th>
+              <td scope="col-md">Wedding</td>
+              <td scope="col-md">Pendant</td>
+              <td scope="col-md">Beaded</td>
+              <td scope="col-md">Nose Ring</td>
+            </tr>
+            <tr>
+              <td scope="col-md">Dangle</td>
+              <td scope="col-md">Engagement</td>
+              <td scope="col-md">Princess</td>
+              <td scope="col-md">Bangle</td>
+              <td scope="col-md">Tongue Ring</td>
+            </tr>
+            <tr>
+              <td scope="col-md">Chandelier</td>
+              <td scope="col-md">Promise</td>
+              <td scope="col-md">Choker</td>
+              <td scope="col-md">Tennis</td>
+              <td scope="col-md">Belly Ring</td>
+            </tr>
+            <tr>
+              <td scope="col-md">Diamond</td>
+              <td scope="col-md">Birthstone</td>
+              <td scope="col-md">Chain</td>
+              <td scope="col-md">Charm</td>
+              <td scope="col-md">Eye-Brow Ring</td>
+            </tr>
+            <tr>
+              <td scope="col-md">Gothic</td>
+              <td scope="col-md">Silver</td>
+              <td scope="col-md">Charm</td>
+              <td scope="col-md">Leather</td>
+              <td scope="col-md">Lip Ring</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="home">
+      <div class="header">
+        <h1></h1>
+        <p>Collection</p>
+      </div>
+    </div>
+    <!-- testimonikal owl carasal thats gonna be changed -->
+    <div class="testimonials">
       <div class="row">
         <div class="col-sm-12">
           <div id="customers-testimonials" class="owl-carousel">
-
             <!--TESTIMONIAL 1 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg" alt="">
-               
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/FHjZmQMy/Celestial-Goth-Crescent-Moon-Face-and-Stars-Sleepless-Nights-Witchy-Silver-Earrings.jpg"
+                  alt=""
+                />
               </div>
               <div class="testimonial-name btn-grad">
                 <h4 class="text-center">Earings</h4>
                 <h5 class="text-center">R200,00</h5>
-</div>
+              </div>
             </div>
             <!--END OF TESTIMONIAL 1 -->
             <!--TESTIMONIAL 2 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/GhDPJChW/pearl-necklace.jpg" alt="">
-            
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/GhDPJChW/pearl-necklace.jpg"
+                  alt=""
+                />
               </div>
               <div class="testimonial-name btn-grad">
-                  <h4 class="text-center">necklace</h4>
+                <h4 class="text-center">necklace</h4>
                 <h5 class="text-center">R400,00</h5>
-
               </div>
             </div>
             <!--END OF TESTIMONIAL 2 -->
             <!--TESTIMONIAL 3 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/pLbJSKQT/download-1.jpg" alt="">
-           
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/pLbJSKQT/download-1.jpg"
+                  alt=""
+                />
               </div>
-              <div class="testimonial-name btn-grad"><h4 class="text-center"> Silver Ring</h4>
+              <div class="testimonial-name btn-grad">
+                <h4 class="text-center">Silver Ring</h4>
                 <h5 class="text-center">R2250,00</h5>
-</div>
+              </div>
             </div>
             <!--END OF TESTIMONIAL 3 -->
             <!--TESTIMONIAL 4 -->
-            
+
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg" alt="">
-                
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/g0dFGXpc/Women-s-Earrings.jpg"
+                  alt=""
+                />
               </div>
               <div class="testimonial-name btn-grad">
-                 <h4 class="text-center">Gothic Rose Earings</h4>
+                <h4 class="text-center">Gothic Rose Earings</h4>
                 <h5 class="text-center">R500,00</h5>
-
               </div>
             </div>
             <!--END OF TESTIMONIAL 4 -->
             <!--TESTIMONIAL 5 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg" alt="">
-                
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/tgL61jrg/G-S-s-M-S.jpg"
+                  alt=""
+                />
               </div>
               <div class="testimonial-name btn-grad">
-                  <h4 class="text-center">Matching Rings</h4>
+                <h4 class="text-center">Matching Rings</h4>
                 <h5 class="text-center">R1400,00</h5>
-
               </div>
             </div>
             <!--END OF TESTIMONIAL 5 -->
-                        <div class="item">
+            <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle img-fluid prodimg" src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg" alt="">
-                
+                <img
+                  class="img-circle img-fluid prodimg"
+                  src="https://i.postimg.cc/RFt9sQCd/Crystal-Itty-Bitty-Bracelet.jpg"
+                  alt=""
+                />
               </div>
               <div class="testimonial-name btn-grad">
                 <h4 class="text-center">Crystal Dainty Bracelet</h4>
                 <h5 class="text-center">R300,00</h5>
-
               </div>
             </div>
-                       
-                        
-            
           </div>
         </div>
       </div>
-      </div>
     </div>
-      </div>
+  </div>
 
-<!-- end here -->
+  <!-- end here -->
+  <div class="container">
+
 <!-- necklaces starts here -->
  <div class="container-fluid" id="home">
     <div class="header">
@@ -446,7 +462,8 @@
  </div> 
  </div>
  <!-- piercinsg end here -->
-  <footer />
+
+  
 </template>
 
 <script>
@@ -480,37 +497,14 @@ jQuery(document).ready(function($) {
         	});
 
 </script>
-<style scoped>
 
+<style scoped>
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: larger;
   font-weight: bold;
 }
 
-.btn1{
-color:#DD5E89;
- background-color:#e74c3c;
-  width:20px;
-  height:45px;
-  border-color:#e74c3c;
-  
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-  width:100px;
-  height:100px;
-}
-.btn1:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
 .header {
   padding: 10px;
   text-align: center;
@@ -518,6 +512,7 @@ color:#DD5E89;
   color: white;
   font-size: 20px;
 }
+
 .prodimg {
   height: 140px;
   width: 160px;
@@ -526,30 +521,32 @@ color:#DD5E89;
   margin-right: auto;
   aspect-ratio: 1;
 }
-         
-         .btn-grad {
-            background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
-            margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            display: block;
-            width:50px;
-          }
 
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-         
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: 50px;
+}
 
-
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 .btn-grad {
   background-image: linear-gradient(
@@ -559,7 +556,6 @@ color:#DD5E89;
     #eb3349 100%
   );
 
- 
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -568,8 +564,8 @@ color:#DD5E89;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
-  width:100px;
-  height:100px;
+  width: 100px;
+  height: 100px;
 }
 
 .btn-grad:hover {
@@ -580,12 +576,12 @@ color:#DD5E89;
 .display-3 {
   color: #eb3349;
   font-weight: bold;
-  font-size:xx-large;
+  font-size: xx-large;
 
   font-family: "Josefin Sans", sans-serif;
 }
-h3{
-  color:#eb3349;
+h3 {
+  color: #eb3349;
 }
 .cat {
   justify-content: center;
@@ -599,11 +595,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.container {
-  padding: 75px 0;
-  margin: 0 auto;
-  width: 1140px;
-}
+
 h1 {
   position: relative;
   margin-bottom: 45px;
@@ -630,7 +622,8 @@ h1 {
   flex: 7;
 }
 .item-1 {
-  background-image: url("https://i.postimg.cc/kGrMqYYL/Goth-spike-earring-asymmetrical-black-chain-earrings-egirl-jewelry-gothic-aesthetic-chain-earrin.jpg");}
+  background-image: url("https://i.postimg.cc/kGrMqYYL/Goth-spike-earring-asymmetrical-black-chain-earrings-egirl-jewelry-gothic-aesthetic-chain-earrin.jpg");
+}
 .item-2 {
   background-image: url("https://i.postimg.cc/2y7r3D0s/Luxury-fashion-independent-designers-SSENSE.jpg");
 }
@@ -641,7 +634,8 @@ h1 {
   background-image: url("https://i.postimg.cc/2Sch9q4K/Punk-Goth-Snake-Wrap-Ring-Gunmetal-11.jpg");
 }
 .item-5 {
-  background-image: url("https://i.postimg.cc/rFDf8JzJ/choker-leatther.png");}
+  background-image: url("https://i.postimg.cc/rFDf8JzJ/choker-leatther.png");
+}
 .social {
   position: absolute;
   right: 35px;
@@ -652,78 +646,75 @@ h1 {
   width: 32px;
 }
 
-
 /* owl */
 .shadow-effect {
-		    background: #fff;
-		    padding: 20px;
-		    border-radius: 4px;
-		    text-align: center;
-	border:1px solid #ECECEC;
-		    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
-		}
-		#customers-testimonials .shadow-effect p {
-		    font-family: inherit;
-		    font-size: 17px;
-		    line-height: 1.5;
-		    margin: 0 0 17px 0;
-		    font-weight: 300;
-		}
-		.testimonial-name {
-		    margin: -17px auto 0;
-		    display: table;
-		    width: 80px;
-		    /* background: #3190E7; */
-		    padding: 9px 35px;
-		    border-radius: 12px;
-		    text-align: center;
-		    color: #fff;
-		    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
-        height:50px;
-		}
-		#customers-testimonials .item {
-		    text-align: center;
-		    padding: 50px;
-				margin-bottom:80px;
-		    opacity: .2;
-		    -webkit-transform: scale3d(0.8, 0.8, 1);
-		    transform: scale3d(0.8, 0.8, 1);
-		    -webkit-transition: all 0.3s ease-in-out;
-		    -moz-transition: all 0.3s ease-in-out;
-		    transition: all 0.3s ease-in-out;
-		}
-		#customers-testimonials .owl-item.active.center .item {
-		    opacity: 1;
-		    -webkit-transform: scale3d(1.0, 1.0, 1);
-		    transform: scale3d(1.0, 1.0, 1);
-		}
-		.owl-carousel .owl-item img {
-		    transform-style: preserve-3d;
-		    max-width: 90px;
-    		margin: 0 auto 17px;
-		}
-		#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #ececec;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+#customers-testimonials .shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: 80px;
+  /* background: #3190E7; */
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+  height: 50px;
+}
+#customers-testimonials .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 80px;
+  opacity: 0.2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-		    
-		    transform: translate3d(0px, -50%, 0px) scale(0.7);
-		}
-#customers-testimonials.owl-carousel .owl-dots{
-	display: inline-block;
-	width: 100%;
-	text-align: center;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
-#customers-testimonials.owl-carousel .owl-dots .owl-dot{
-	display: inline-block;
+#customers-testimonials.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
-		#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-		  
-		    display: inline-block;
-		    height: 20px;
-		    margin: 0 2px 5px;
-		    transform: translate3d(0px, -50%, 0px) scale(0.3);
-		    transform-origin: 50% 50% 0;
-		    transition: all 250ms ease-out 0s;
-		    width: 20px;
-		}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
 /* end */
 </style>

@@ -2,16 +2,16 @@
 <Navbar/>
 
   <router-view/>
-<footer/>
+  <Footer/>
 
 </template>
 
 <script>
 import Navbar from "@/components/navbar.vue";
-import footer from "@/components/footer.vue";
+import Footer from "@/components/footer.vue";
 // import productCard from "@/components/productCard.vue";
 export default {
-  components: {Navbar, footer //productCard}
+  components: {Navbar, Footer //productCard}
   }}
 </script>
 <style>

@@ -21,8 +21,18 @@
                {{item.text}}
                 </span> </div>
                 <div class="btn-flex">
-                  
-<button type="button" class="btn btn-grad">View</button>
+            <ul class="d-flex flex-row"><li>
+<button type="button" class="btn btn-grad"> <i class="bi bi-search"></i
+              > View</button>
+            </li>
+            <li>
+              <button type="button " class="btn btn-grad mx-2"><i class="bi bi-cart-fill"></i
+              > Add to cart</button>
+            </li>
+              </ul>      
+
+
+  
                 </div>
                 
                  
@@ -79,6 +89,7 @@ article{
     #eb3349 100%
   );
 
+  font-size: 10px !important;
  
   text-align: center;
   text-transform: uppercase;
