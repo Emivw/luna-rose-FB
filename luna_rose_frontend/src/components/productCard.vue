@@ -2,8 +2,6 @@
 
 <div
     class="col-md-6 col-lg-4 col-sm-10"
-    v-for="item in AboutArray"
-    :key="item.id"
   >
     <section class="card-content">
       <div class="card-content">
@@ -11,14 +9,14 @@
           <div class="layer"></div>
           <div class="content">
             <div class="image">
-              <img :src="item.icon" alt="avatar" />
+              <img :src="product.imgurl" alt="avatar" />
             </div>
             <br />
             <div class="details ">
-              <span>{{ item.title }}</span>
+              <span>{{ product.title }}</span>
               <div class="col-12">
              <span>
-               {{item.text}}
+               {{product.price}}
                 </span> </div>
                 <div class="btn-flex">
             <ul class="d-flex flex-row">
@@ -50,23 +48,12 @@
   </div>
 </template>
 
-<script scoped>
+<script>
+
 export default {
-  data() {
-    return {
-      AboutArray: [
-        {
-          id: 1,
-          icon: "https://i.postimg.cc/2yhkBhXq/Chain-Earrings-w-Skull-Posts-and-Dagger-Drops.jpg",
-          title: "Gothic Dagger Earing",
-          text: "Price: R399.99",
-         
-        },
-        
-      ],
-    };
-  },
+props: ["product"]
 };
+
 </script>
 
 <style scoped>

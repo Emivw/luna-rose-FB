@@ -15,6 +15,7 @@
                   class="form-control input-lg"
                   placeholder="First Name"
                   tabindex="1"
+                  v-model="firstname"
                 />
               </div>
             </div>
@@ -24,6 +25,7 @@
                   type="text"
                   name="last_name"
                   id="last_name"
+                  v-model="lastname"
                   class="form-control input-lg"
                   placeholder="Last Name"
                   tabindex="2"
@@ -39,6 +41,7 @@
               class="form-control input-lg"
               placeholder="Display Name"
               tabindex="3"
+              v-model="firstname"
             />
           </div>
           <div class="form-group mb-1">
@@ -49,6 +52,7 @@
               class="form-control input-lg"
               placeholder="Email Address"
               tabindex="4"
+              v-model="email"
             />
           </div>
           <div class="row">
@@ -58,6 +62,7 @@
                   type="password"
                   name="password"
                   id="password"
+                  v-model="user_password"
                   class="form-control input-lg"
                   placeholder="Password"
                   tabindex="5"
@@ -70,6 +75,7 @@
                   type="password"
                   name="password_confirmation"
                   id="password_confirmation"
+                  v-model="password_repeat"
                   class="form-control input-lg"
                   placeholder="Confirm Password"
                   tabindex="6"
