@@ -11,8 +11,15 @@
 <div v-if="products" class="row my-5">
     <ProductCard 
     v-for="product in products" 
-    :key="product.id" 
+    :key="product" 
     :product="product"/>
+    <!-- <ul>
+    <li v-for="product in products" 
+    :key="product.id" 
+    :product="product">
+    {{product.title}}
+    </li>
+    </ul> -->
 </div>
 <div v-else>Loading....</div>
     </div>
@@ -23,13 +30,13 @@
 import ProductCard from "../components/productCard.vue";
 export default {
   name: 'product',
-  mounted() {
-    return this.$store.dispatch("getProducts");
-  },
   computed: {
     products() {
-      return this.$store.state.products
+      return this.$store.state.products;
     },
+  },
+  mounted() {
+    this.$store.dispatch("getProducts");
   },
   components: {ProductCard}
 };

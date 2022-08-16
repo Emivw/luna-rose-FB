@@ -3,8 +3,8 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     products: null,
-    Product: null,
-    Users: null,
+    product: null,
+    users: null,
     user: null,
     cart: null
   },
@@ -16,16 +16,16 @@ export default createStore({
       state.products = products;
     },
     setProduct(state, Product) {
-      state.Product = Product;
+      state.product = Product;
     },
     setUser(state, user) {
       state.user = user;
     },
     setUsers(state, users) {
-      state.Users = users;
+      state.users = users;
     },
     clearProduct(state) {
-      state.Product = null
+      state.product = null
     },
     setCart(state, cart) {
       state.cart = cart;
@@ -33,12 +33,12 @@ export default createStore({
   },
   actions: {
     async getProducts(context) {
-      fetch('https://luna-rose.herokuapp.com/products')
+      fetch('https://luna-rose.herokuapp.com/api/products')
         .then((res) => res.json())
-        .then((data) => context.commit('setProducts', data.results))
+        .then((data) => context.state.products = data.results )
     },
     async getSingleProduct(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/login' + payload)
+      fetch('https://luna-rose.herokuapp.com/api/product/:id' + payload)
         .then((res) => res.json())
         .then((data) => context.commit('setSingleProduct', data.results[0]))
     },
@@ -65,7 +65,7 @@ export default createStore({
         .then((data) => { context.commit('setUser', data.token); context.dispatch('getCart') });
     },
     async getUserInfo(context) {
-      fetch('https://luna-rose.herokuapp.com/api/login', {
+      fetch('https://luna-rose.herokuapp.com/api/users', {
         method: 'GET',
         headers: {
           'Content-type': 'application/json; charset=UTF-8',
@@ -76,7 +76,7 @@ export default createStore({
         .then((data) => console.log(data.token.user))
     },
     async getAllUsers(context) {
-      fetch('https://luna-rose.herokuapp.com/api/login')
+      fetch('https://luna-rose.herokuapp.com/api/users')
         .then((res) => res.json())
         .then((data) => context.commit('setAllUsers', data.results));
     },
@@ -110,7 +110,7 @@ export default createStore({
         .then((data) => context.dispatch('getProducts'))
     },
     AddProductToCart(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/login', {
+      fetch('https://luna-rose.herokuapp.com/api/cart', {
         method: 'GET',
         headers: {
           'Content-type': 'application/json; charset=UTF-8',
