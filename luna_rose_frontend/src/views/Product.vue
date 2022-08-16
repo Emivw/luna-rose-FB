@@ -1,53 +1,36 @@
 <template>
-  <div v-if="product" id="main">
-    <router-link to="/products"
-      ><button class="btn btn-danger">Go Back</button></router-link
-    >
-    <div class="container">
+
+    <router-link to="/products"><button class=" btn btn-grad">Go Back</button></router-link>
+   
+
+ <div class="container">
       <div class="row">
         <div id="item">
-          <div class="card">
-            <img id="product-img" :src="product.prodUrl" alt="" style="width: 100%" />
+         
+            <img :src="product.prodUrl" alt="" style="width: 100%" />
             <div class="information-area">
               <div id="details" class="info-top">
-                <h1>{{ product.prodName }}</h1>
-                <p>{{ product.description }}</p>
-                <p>R{{ product.price }}</p>
+                <h1>product name</h1>
+                <p>product description</p>
+                <p>price</p>
               </div>
-              <div class="btn-area btn-danger">
+              <div class="btn btn-grad">
                 <a class="text-white" @click="addProductToCart">Add To Cart</a>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </div>
-  </div>
-  <div v-else id="main">loading...</div>
+
+
+
+ 
 </template>
 
 <script>
-export default {
-  computed: {
-    product() {
-      return this.$store.state.singleProduct;
-    },
-  },
-  mounted() {
-    this.$store.dispatch("getSingleProduct", this.$route.params.id);
-  },
-  methods: {
-    addProductToCart() {
-      let newProduct = {
-        prodName: this.product.prodName,
-        prodUrl: this.product.prodUrl,
-        description: this.product.description,
-        price: this.product.price,
-      };
-      this.$store.dispatch("AddProductToCart", newProduct);
-    },
-  },
-};
+
+
 </script>
 
 <style scoped>
@@ -56,9 +39,9 @@ a{text-decoration: none;}
 #main {
   background-image: linear-gradient(
     to right,
-    #000046 0%,
-    #1cb5e0 51%,
-    #000046 100%
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
   );
   background-size: cover;
   background-position: center;
@@ -66,19 +49,9 @@ a{text-decoration: none;}
   height: 100%;
   color: white;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 320px;
-  margin: auto;
-  text-align: center;
-  background-color: transparent;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  font-size: 21px;
-  padding: 20px 20px 20px 20px;
-}
 
 #item {
-  padding: 25px;
+  padding: 50px;
 }
 
 .price {
@@ -86,11 +59,53 @@ a{text-decoration: none;}
   font-size: 22px;
 }
 
-.btn-area {
-  text-decoration: none;
-  font-size: 30px;
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+
+  font-size: 10px !important;
+ 
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  padding: none !important;
 }
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 10px !important;
+    line-height: 1.5;
+    color: #f8d4c0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    /* padding: 0.375rem 0.75rem; */
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;}
 </style>
 
 
