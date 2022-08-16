@@ -40,6 +40,12 @@
               ><router-link to="/contact">Contact</router-link></a
             >
           </li>
+           <li class="nav-item rounded">
+            <a class="navbar-brand" href="#"
+              ><i class="bi bi-cart-fill me-2"></i
+              ><router-link to="/contact">Cart</router-link></a
+            >
+          </li>
           <li class="nav-item dropdown rounded">
             <a
               class="nav-link dropdown-toggle"
@@ -71,7 +77,7 @@
             </ul>
 
             <ul
-              v-if="users"
+              v-if="isLoggedIn"
               class="dropdown-menu dropdown-menu-end"
               aria-labelledby="navbarDropdown"
             >

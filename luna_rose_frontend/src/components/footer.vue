@@ -1,137 +1,110 @@
-<template lang="">
-<footer class="footer-section">
-        <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4>Call us</h4>
-                                <span>9876543210 0</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>Mail us</h4>
-                                <span>mail@info.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<template>
+  <div class="footer-section">
+    <div class="container-fluid">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="cta-text">
+                <h4>Find us</h4>
+                <span>Shop O/3C high Street Shopping Village Durban Road , Bellvile Cape Town 7530</span>
+              </div>
             </div>
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="https://i.postimg.cc/T2j1k3Gk/logo.png" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">products</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Meet our Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Missing out, subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address" >
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-xs-12 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>021-687-5321<br />
+                    021-687-5322</span>
+              </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>nfo@RoyalLunaRoseCompany.co.za</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2022, All Right Reserved <a href="#">MARVEL INC</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Register</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xs-12 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="/"
+                  ><img
+                    src="https://i.postimg.cc/rm1yWbNT/logo-img.png"
+                    class="img-fluid"
+                    alt="logo"
+                /></a>
+              </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/about">Our Services</a></li>
+                <li><a href="/about">Meet the Team</a></li>
+                <li><a href="/contact">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-4 col-md-6 mb-50">
+            <div class="footer-social-icon">
+              <span>Follow us</span>
+              <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+              <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+            </div>
+            <div class="footer-widget">
+              <div class="footer-text">
+                
+              </div>
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2022, All Right Reserved
+                 
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
-<style>
-    ul {
-    margin: 0px;
-    padding: 0px;
+<style scoped>
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: transparent;
   position: relative;
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid #DD5E89;
 }
+
 .single-cta i {
-  color: #a00000;
+  
+  color:  #f8d4c0;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -141,13 +114,13 @@ export default {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #fff;
+  color: #eb3349;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: #eb3349;
   font-size: 15px;
 }
 .footer-content {
@@ -166,23 +139,23 @@ export default {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  max-width: 200px;
 }
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #eb3349;
   line-height: 28px;
 }
 .footer-social-icon span {
-  color: #fff;
+  color: #eb3349;
   display: block;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
-  color: #fff;
+  color: #eb3349;
   font-size: 16px;
   margin-right: 15px;
 }
@@ -193,17 +166,20 @@ export default {
   line-height: 38px;
   border-radius: 50%;
 }
-.facebook-bg{
-  background: #3B5998;
+.facebook-bg {
+  background: white;
+  color: #eb3349;
 }
-.twitter-bg{
-  background: #55ACEE;
+.twitter-bg {
+  background: white;
+  color: #eb3349;
 }
-.google-bg{
-  background: #a00000;
+.google-bg {
+  background: white;
+  color: #eb3349;
 }
 .footer-widget-heading h3 {
-  color: #fff;
+  color: #eb3349;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -216,19 +192,19 @@ export default {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #a00000;
+  background: #eb3349;
 }
 .footer-widget ul li {
-  /* display: inline-block; */
-  float: left;
+  display: inline-block;
+  /* float: left; */
   width: 50%;
   margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
-  color: #a00000;
+.footer-widget ul li a:hover {
+  color: #eb3349;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: #eb3349;
   text-transform: capitalize;
 }
 .subscribe-form {
@@ -238,44 +214,44 @@ export default {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2E2E2E;
-  border: 1px solid #2E2E2E;
-  color: #fff;
+  background: white;
+  border: 1px solid #eb3349;
+  color: #eb3349;
 }
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #a00000;
-    padding: 13px 20px;
-    border: 1px solid #a00000;
-    top: 0;
+  position: absolute;
+  right: 0;
+  background: #eb3349;
+  padding: 13px 20px;
+  border: 1px solid #eb3349;
+  top: 0;
 }
 .subscribe-form button i {
-  color: #fff;
+  color: #eb3349;
   font-size: 22px;
   transform: rotate(-6deg);
 }
-.copyright-area{
-  background: #202020;
+.copyright-area {
+  background: transparent;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #eb3349;
 }
-.copyright-text p a{
-  color: #a00000;
+.copyright-text p a {
+  color: #eb3349;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
-.footer-menu li:hover a{
-  color: #a00000;
+.footer-menu li:hover a {
+  color: #eb3349;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #eb3349;
 }
 </style>
