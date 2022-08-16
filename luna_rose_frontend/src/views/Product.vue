@@ -7,7 +7,7 @@
     <router-link to="/products"><button class=" btn btn-grad">Go Back</button></router-link>
         <div v-if="product" id="item">
          
-            <img :src="product.imgurl" alt="avatar" />
+            <img :src="product[0].imgurl" alt="avatar" />
             <div class="information-area">
               <div id="details" class="info-top">
                 <h1>{{product[0].title}}</h1>

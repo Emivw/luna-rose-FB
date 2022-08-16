@@ -467,7 +467,6 @@
 </template>
 
 <script>
-export default {};
 
 // Owl Carousel
 jQuery(document).ready(function($) {
@@ -495,7 +494,17 @@ jQuery(document).ready(function($) {
 		            }
 		        });
         	});
-
+export default {
+  name: 'products',
+  computed: {
+    products() {
+      return this.$store.state.products;
+    },
+  },
+  mounted() {
+    this.$store.dispatch("getProducts");
+  },
+};
 </script>
 
 <style scoped>
