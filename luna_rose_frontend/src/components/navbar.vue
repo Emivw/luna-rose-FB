@@ -74,6 +74,13 @@
                 >
               </li>
                 </router-link>
+                   <router-link to="/admin/:id">
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Admin</a
+                >
+              </li>
+                </router-link>
             </ul>
 
             <ul

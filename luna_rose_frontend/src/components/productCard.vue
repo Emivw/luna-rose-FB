@@ -19,13 +19,19 @@
                {{product.price}}
                 </span> </div>
                 <div class="btn-flex">
-            <ul class="d-flex flex-row"><li>
-<button type="button" class="btn btn-grad"> <i class="bi bi-search"></i
-              > View</button>
+            <ul class="d-flex flex-row">
+              <li>
+  <router-link to="/product/:id">
+<button type="button" class="btn btn-grad"><i class="bi bi-search"> </i>
+             view
+             </button>
+              </router-link>
+             
+             
             </li>
             <li>
-              <button type="button " class="btn btn-grad mx-2"><i class="bi bi-cart-fill"></i
-              > Add to cart</button>
+              <button type="button " class="btn btn-grad mx-2"><i class="bi bi-cart-fill"></i> 
+              Add to cart</button>
             </li>
               </ul>      
 
@@ -51,6 +57,10 @@ props: ["product"]
 </script>
 
 <style scoped>
+a {
+    color: none;
+    text-decoration: none;
+}
 .image {
   width: fit-content;
   border-radius:5px;

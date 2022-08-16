@@ -5,6 +5,8 @@ import Products from '../views/Products.vue'
 import Product from '../views/Product.vue'
 import Contact from '../views/Contact.vue'
 import Admin from '../views/Admin.vue'
+import UsersAdmin from '../views/UsersAdmin.vue'
+import ProductAdmin from '../views/ProductAdmin.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 
@@ -27,7 +29,7 @@ const routes = [
     component: Products
   },
   {
-    path: '/products/:id',
+    path: '/product/:id',
     name: 'product',
     component: Product
   },{
@@ -39,6 +41,15 @@ const routes = [
     path: '/admin/:id',
     name: 'admin',
     component: Admin
+  },
+  {
+    path: '/admin/products',
+    name: 'adminProducts',
+    component:ProductAdmin
+  },{
+    path: '/admin/users',
+    name: 'adminUsers',
+    component: UsersAdmin
   },
   {
     path: '/login',
