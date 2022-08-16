@@ -2,46 +2,18 @@
   <div class="container ">
     <div class="row  d-flex flex-row justify-content-center">
       <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-        <form role="form">
+        <form role="form"  @submit.prevent="register">
           <h2>Please Sign Up</h2>
           <hr class="colorgraph" />
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 mb-1">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="first_name"
-                  id="first_name"
-                  class="form-control input-lg"
-                  placeholder="First Name"
-                  tabindex="1"
-                  v-model="firstname"
-                />
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 mb-1">
-              <div class="form-group">
-                <input
-                  type="text"
-                  name="last_name"
-                  id="last_name"
-                  v-model="lastname"
-                  class="form-control input-lg"
-                  placeholder="Last Name"
-                  tabindex="2"
-                />
-              </div>
-            </div>
-          </div>
           <div class="form-group mb-1">
             <input
               type="text"
               name="display_name"
               id="display_name"
               class="form-control input-lg"
-              placeholder="Display Name"
+              placeholder="Full Name"
               tabindex="3"
-              v-model="firstname"
+              v-model="fullName"
             />
           </div>
           <div class="form-group mb-1">
@@ -62,7 +34,7 @@
                   type="password"
                   name="password"
                   id="password"
-                  v-model="user_password"
+                  v-model="userPassword"
                   class="form-control input-lg"
                   placeholder="Password"
                   tabindex="5"
@@ -275,7 +247,31 @@ $(function () {
     init();
   });
 });
-export default {};
+export default {
+  data() {
+    return {
+      fullName: "",
+      email: "",
+      userPassowrd: "",
+      password_repeat: "",
+    };
+  },
+  computed: {
+    users() {
+      return this.$store.state.users;
+    },
+  },
+  methods: {
+    register() {
+      return this.$store.dispatch("registerUser", {
+        fullName: this.fullName,
+        email: this.email,
+        userPassowrd: this.userPassowrd,
+        password_repeat: this.password_repeat,
+      });
+    },
+  },
+};
 </script>
 
 <style scoped>
