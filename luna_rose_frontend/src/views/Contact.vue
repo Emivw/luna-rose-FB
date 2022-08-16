@@ -1,20 +1,5 @@
 <template>
-  <!-- <div class="container-fluid bord">
-    <h3>VISIT OUR STORE IN CAPE TOWN</h3>
-
-    <h4>
-      <ul>
-        <li>Shop O/3C</li>
-        <li>high Street Shopping Village</li>
-        <li>Durban Road</li>
-        <li>Bellvile</li>
-        <li>Cape Town</li>
-        <li>7530</li>
-        <li>Contact US :021687532</li>
-        <li>Email Us: RoyalLunaRoseCompany</li>
-      </ul>
-    </h4>
- </div> -->
+  
  <div class="container-fluid pt-0">
     <section class="contact-page-section">
       <div class="container">
@@ -29,7 +14,7 @@
               <div class="inner-column">
                 <!--Contact Form-->
                 <div class="contact-form">
-                  <form method="post" action="sendemail.php" id="contact-form">
+                  <form action="https://formspree.io/f/xknenpae" method="POST">
                     <div class="row clearfix">
                       <div class="form-group col-md-6 col-sm-6 co-xs-12">
                         <input

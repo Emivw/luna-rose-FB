@@ -1,18 +1,18 @@
 <template>
 
-    <router-link to="/products"><button class=" btn btn-grad">Go Back</button></router-link>
    
 
  <div class="container">
       <div class="row">
-        <div id="item">
+    <router-link to="/products"><button class=" btn btn-grad">Go Back</button></router-link>
+        <div v-if="product" id="item">
          
-            <img :src="product.prodUrl" alt="" style="width: 100%" />
+            <img :src="product.imgurl" alt="avatar" />
             <div class="information-area">
               <div id="details" class="info-top">
-                <h1>product name</h1>
-                <p>product description</p>
-                <p>price</p>
+                <h1>{{product[0].title}}</h1>
+                <p>{{product[0].description}}</p>
+                <p>${{product[0].price}}</p>
               </div>
               <div class="btn btn-grad">
                 <a class="text-white" @click="addProductToCart">Add To Cart</a>
@@ -20,6 +20,7 @@
             </div>
           
         </div>
+        <div v-else>Loading....</div>
       </div>
     </div>
 
@@ -29,8 +30,17 @@
 </template>
 
 <script>
-
-
+export default {
+  name: 'product',
+  computed: {
+    product() {
+      return this.$store.state.product;
+    },
+  },
+  mounted() {
+    this.$store.dispatch("getProduct", this.$route.params.id);
+  }
+};
 </script>
 
 <style scoped>
