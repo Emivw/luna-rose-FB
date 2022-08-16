@@ -1,6 +1,6 @@
 <template>
 <Navbar/>
-
+<CartSidebar/>
   <router-view/>
   <Footer/>
 
@@ -9,10 +9,11 @@
 <script>
 import Navbar from "@/components/navbar.vue";
 import Footer from "@/components/footer.vue";
+import CartSidebar from "./components/cartSidebar.vue";
 // import productCard from "@/components/productCard.vue";
 export default {
-  components: {Navbar, Footer //productCard}
-  }}
+  components: { Navbar, Footer //productCard}
+    , CartSidebar }}
 </script>
 <style>
 *{

@@ -15,8 +15,8 @@ export default createStore({
     setProducts(state, products) {
       state.products = products;
     },
-    setProduct(state, Product) {
-      state.product = Product;
+    setProduct(state, product) {
+      state.product = product;
     },
     setUser(state, user) {
       state.user = user;
@@ -37,10 +37,20 @@ export default createStore({
         .then((res) => res.json())
         .then((data) => context.state.products = data.results )
     },
-    async getSingleProduct(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/product/:id' + payload)
+    async getProduct(context, id) {
+      fetch('https://luna-rose.herokuapp.com/api/products/' + id)
         .then((res) => res.json())
-        .then((data) => context.commit('setSingleProduct', data.results[0]))
+        .then((data) => context.commit('setProduct', data.results))
+    },
+    async getUsers(context) {
+      fetch('https://luna-rose.herokuapp.com/api/users')
+        .then((res) => res.json())
+        .then((data) => context.state.users = data.results )
+    },
+    async getUser(context, id) {
+      fetch('https://luna-rose.herokuapp.com/api/users/' + id)
+        .then((res) => res.json())
+        .then((data) => context.commit('setUser', data.results))
     },
     async registerUser(context, payload) {
       fetch('https://luna-rose.herokuapp.com/api/register', {
@@ -53,16 +63,26 @@ export default createStore({
         .then((res) => res.json())
         .then((data) => console.log(data.results))
     },
-    async loginUser(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/login', {
-        method: 'PATCH',
-        body: JSON.stringify(payload),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8'
-        }
-      })
+    login: async (context, data) => {
+      // const { email, password } = data;
+      console.log("Hi")
+      fetch(`https://luna-rose.herokuapp.com/api/login`, {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            'Content-type': 'application/json; charset=UTF-8'
+          }
+        })
         .then((res) => res.json())
-        .then((data) => { context.commit('setUser', data.token); context.dispatch('getCart') });
+        .then((data) => {
+          console.log(data.msg)
+          let user = data.msg
+          context.commit("setUser", user)
+          alert('Login in success')
+        })
+      setTimeout(() => {
+        router.push("/all")
+      }, 4000)
     },
     async getUserInfo(context) {
       fetch('https://luna-rose.herokuapp.com/api/users', {
@@ -74,11 +94,6 @@ export default createStore({
       })
         .then((res) => res.json())
         .then((data) => console.log(data.token.user))
-    },
-    async getAllUsers(context) {
-      fetch('https://luna-rose.herokuapp.com/api/users')
-        .then((res) => res.json())
-        .then((data) => context.commit('setAllUsers', data.results));
     },
     async editProduct(context, payload) {
       fetch('https://luna-rose.herokuapp.com/api/login' + payload.id, {
@@ -92,14 +107,14 @@ export default createStore({
         .then((data) => context.dispatch('getProducts'));
     },
     async deleteProduct(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/login' + payload, {
+      fetch('https://luna-rose.herokuapp.com/api/products' + payload, {
         method: 'DELETE'
       })
         .then((res) => res.json())
         .then((data) => context.dispatch('getProducts'))
     },
     async addProduct(context, payload) {
-      fetch('https://luna-rose.herokuapp.com/api/login', {
+      fetch('https://luna-rose.herokuapp.com/api/products', {
         method: 'POST',
         body: JSON.stringify(payload),
         headers: {

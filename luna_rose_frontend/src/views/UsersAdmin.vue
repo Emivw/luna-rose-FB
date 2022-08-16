@@ -1,60 +1,49 @@
 <template>
   <div id="main" class="users container">
     <h1>ALL USERS</h1>
-    <div>
-      <table class="table text-white">
+    <div style="overflow-x:auto">
+      <table class="table text-dark">
       <thead>
         <tr>
           <th scope="col">ID</th>
-          <th scope="col">First Name</th>
-          <th scope="col">Last Name</th>
-          <th scope="col">Gender</th>
-          <th scope="col">Address</th>
-          <th scope="col">Cart</th>
-          <th scope="col">Phone Number</th>
-          <th scope="col">Date</th>
+          <th scope="col">Full Name</th>
           <th scope="col">Email</th>
-          <th scope="col">Password</th>
+          <th scope="col">User Password</th>
           <th scope="col">User Role</th>
+          <th scope="col">Join Date</th>
+          <th scope="col">Cart</th>
           <th scope="col">Delete</th>
         </tr>
       </thead>
-      <tbody>
-        <tr v-for="user in allUsers" :key="user.id">
-          <th scope="row">{{ user.id }}</th>
-          <th scope="row">{{ user.firstName }}</th>
-          <th scope="row">{{ user.lastName }}</th>
-          <th scope="row">{{ user.gender }}</th>
-          <th scope="row">{{ user.address }}</th>
-          <th scope="row">
-            <button v-if="user.cart" data-bs-toggle="modal" :data-bs-target="`#userCart`+user.id" class="btn btn-grad">View Cart</button>
-            <p v-else>Empty</p>
-          </th>
-          <th scope="row">{{ user.phoneNumber }}</th>
-          <th scope="row">{{ user.dateCreated }}</th>
+           <tbody>
+        <tr v-for="user in users" :key="user.userId">
+          <th scope="row" class="p-2">{{ user.userId }}</th>
+          <th scope="row">{{ user.fullName }}</th>
           <th scope="row">{{ user.email }}</th>
-          <th id="word" scope="row">{{ user.userPassword}}</th>
+          <th scope="row">{{user.userPassword}}/></th>
           <th scope="row">{{ user.userRole }}</th>
+          <th scope="row">{{ user.joinDate }}</th>
+          <th scope="row">{{ user.cart }}</th>
           <th scope="row">
-            <button data-bs-toggle="modal" :data-bs-target="`#userDelete`+user.id" class="btn btn-grad">Delete</button>
+            <button
+              data-bs-toggle="modal"
+              :data-bs-target="`#editUser` + user.UserId"
+              class="btn btn-grad"
+              id="prodButton"
+            >
+              Edit
+            </button>
+            <button
+              data-bs-toggle="modal"
+              :data-bs-target="`#deleteuser` + user.id"
+              class=" btn btn-grad"
+              id="prodButton"
+            >
+              Delete
+            </button>
           </th>
-          <div class="modal fade" style="color:white !important" :id="`userDelete`+user.id" tabindex="-1" :aria-labelledby="`userAdminLabel`+user.id" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" :id="`userAdminLabel`+user.id">Delete The Account</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        Are you sure?
-                    </div>
-                    <div class="modal-footer">
-                        <button @click="deleteAccount(user.id)" data-bs-dismiss="modal" class="btn btn-grad">Delete</button>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <UserCartModal v-if="user.cart" :user="user" :cart="JSON.parse(user.cart)"/>
+          <EditUserModal :user="user" />
+          <DeleteUserModal :user="user" />
         </tr>
       </tbody>
     </table>
@@ -64,23 +53,18 @@
 <script>
 // import UserCartModal from '../components/UserCartModal.vue';
 // import DeleteAccountModal from '../components/DeleteAccountModal.vue';
-// export default {
-  components:{
+export default {
+//   components:{
 //     UserCartModal,DeleteAccountModal
 //   },
-//   mounted() {
-//     this.$store.dispatch("getAllUsers");
-//   },
-//   computed: {
-//     allUsers() {
-//       return this.$store.state.allUsers;
-//     },
-//   },
-//   methods:{
-//     deleteAccount(id){
-//       this.$store.dispatch('deleteAccountWithoutLogout',id)
-//     }
-//   }
+  mounted() {
+    this.$store.dispatch("getUsers");
+  },
+  computed: {
+    users() {
+      return this.$store.state.users;
+    },
+  },
 };
 </script>
 <style scoped>

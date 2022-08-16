@@ -4,7 +4,10 @@
 
         <div class="row d-flex flex-row justify-content-center" style="margin-top:150px; ">
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <form role="form">
+                    <div v-if="user"> welcome {{user[0].fullName}}</div>
+                   <div v-else>
+                <form  role="form">
+                    
                     <fieldset>
                         <h2>Please Sign In</h2>
                         <hr class="colorgraph">
@@ -30,6 +33,7 @@
                         </div>
                     </fieldset>
                 </form>
+                </div>
             </div>
         </div>
 		
@@ -98,8 +102,27 @@ $(function(){
 	});
 });
 export default {
-	
-}
+	  data() {
+    return {
+      email: "",
+      password: "",
+    };
+  },
+  computed: {
+    user() {
+      return this.$store.state.user;
+    },
+  },
+  methods: {
+    login() {
+      const user = {
+        email: this.email,
+        password: this.password,
+      };
+      return this.$store.dispatch("login", user);
+    },
+  },
+};
 </script>
 <style scoped>
 .colorgraph {

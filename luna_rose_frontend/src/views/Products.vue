@@ -29,7 +29,7 @@
 <script>
 import ProductCard from "../components/productCard.vue";
 export default {
-  name: 'product',
+  name: 'products',
   computed: {
     products() {
       return this.$store.state.products;

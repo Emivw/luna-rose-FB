@@ -21,7 +21,7 @@
                 <div class="btn-flex">
             <ul class="d-flex flex-row">
               <li>
-  <router-link to="/product/:id">
+  <router-link :to="{ name: 'product', params: { id: product.id } }">
 <button type="button" class="btn btn-grad"><i class="bi bi-search"> </i>
              view
              </button>

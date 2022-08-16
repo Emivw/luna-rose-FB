@@ -2,7 +2,7 @@
   <div id="main" class="products container">
     <h1>ALL PRODUCTS</h1>
       <div style="overflow-x:auto">
-              <table class="table text-white">
+              <table class="table text-dark">
       <thead>
         <tr>
           <th scope="col">ID</th>
@@ -26,10 +26,10 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="product in allProducts" :key="product.id">
+        <tr v-for="product in products" :key="product.id">
           <th scope="row" class="p-2">{{ product.id }}</th>
-          <th scope="row">{{ product.prodName }}</th>
-          <th scope="row">{{ product.prodUrl }}</th>
+          <th scope="row">{{ product.title }}</th>
+          <th scope="row"><img :src='product.imgurl'/></th>
           <th scope="row">{{ product.description }}</th>
           <th scope="row">{{ product.quantity }}</th>
           <th scope="row">{{ product.category }}</th>
@@ -65,19 +65,23 @@
 // import EditProductModal from "../components/EditProductModal";
 // import DeleteProductModal from "../components/DeleteProductModal.vue";
 // import AddProductModal from "../components/AddProductModal.vue";
-// export default {
+export default {
 //   components: { EditProductModal, DeleteProductModal, AddProductModal },
-//   mounted() {
-//     this.$store.dispatch("getProducts");
-//   },
-//   computed: {
-//     allProducts() {
-//       return this.$store.state.products;
-//     },
-//   },
-// };
+  mounted() {
+    this.$store.dispatch("getProducts");
+  },
+  computed: {
+    products() {
+      return this.$store.state.products;
+    },
+  },
+};
 </script>
 <style scoped>
+img{
+    width: 100px;
+    height: 100px;
+}
 #main{
   padding: 120px 0;
 }
